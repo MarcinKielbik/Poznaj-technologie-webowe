@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #050505;
+    color: #fff;
+    font: 1em sans-serif;
+}
+
+:root {
+    --firstbg: #2f2f2f;
+    --secondbg: #212121;
+}
+
+a {
+    color: goldenrod;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    align-self: auto;
+    padding: 20px;
+    font-size: 17px;
+}
+
+.my {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.navbar {
+    background-color: gold;
+    text-align: center;
+}
+
+.navbar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+}
+  
+.navbar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+  
+.navbar li a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 2px 15px;
+}
+
+.box {
+    background-color: gold;
+    padding: 8px 8px !important;
+    border-radius: 8px;
+}
+
+.box:hover {
+    background-color: #e7c400;
+    padding: 8px 8px !important;
+    border-radius: 8px;
+    transition: .3s ease;
+}
+
+.box-active {
+    background-color: goldenrod;
+    padding: 8px 8px !important;
+    border-radius: 8px;
+}
+
+.welcome {
+    text-align: center;
+    padding: 80px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.pad {
+    padding: 30px 200px;
+}
+
+.html-info, 
+.info{
+    background-color: var(--firstbg)
+}
+
+.css-info {
+    background-color: var(--secondbg)
+}
+
+.js-info {
+    background-color: var(--firstbg)
+}
+
+img {
+    width: 200px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 7px;
+}
+
+.footer {
+    background-color: #e7c400;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
